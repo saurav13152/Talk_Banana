@@ -2,3 +2,31 @@ body{
     background-color:aquamarine;
     
 }
+#txt-area{
+    display: block;
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    margin:7px;
+
+}
+#btn-translate{
+    width: 98px;
+    height: 32px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 30px;
+    
+}
+#btn-translate:hover{
+    background-color: azure;
+}
+
+
+#output{
+    border:2px solid black;
+    height:10vh;
+    width:80%;
+    margin-top:20px;
+    padding:1 rem;
+} 
