@@ -2,13 +2,17 @@ body{
     background-color:aquamarine;
     
 }
+
+h1{
+    text-align: center;
+}
 #txt-area{
     display: block;
     width: 50%;
     height: 100px;
     padding: 10px;
-    margin:7px;
-
+    margin-left: 320px;
+    margin-top: 54px;
 }
 #btn-translate{
     width: 98px;
@@ -16,17 +20,29 @@ body{
     border-radius: 30px;
     cursor: pointer;
     margin: 30px;
-    
+    margin-left: 600px;
 }
 #btn-translate:hover{
-    background-color: azure;
+    background-color: rgb(100, 94, 70);
 }
 
-
 #output{
-    border:2px solid black;
-    height:10vh;
-    width:80%;
-    margin-top:20px;
-    padding:1 rem;
-} 
+    display: inline-block;
+    border: 2px solid black;
+    height: 12vh;
+    width: 80%;
+    margin-top: 34px;
+    margin-left: 100px;
+}
+
+#afterclick{
+    margin-top: 50px;
+    text-align: center;
+    font-size: larger;
+}
+
+#outputheader{
+    font-size: larger;
+    text-align: center;
+    margin-top: 35px;
+}
