@@ -11,7 +11,7 @@ function getTranslatinURL(text){
 }
 
  function errorHandler(error){
-    console.log("error occured" , error);
+    // console.log("error occured" , error);
     alert("Server is not working, try later");
  }
 
